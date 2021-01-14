@@ -1,0 +1,413 @@
+/* GLOBAL STYLES */
+@font-face {
+    font-family: 'terminus';
+    src: url('etc/fonts/terminus/terminusttf-4.47.0-webfont.woff2') format('woff2'),
+         url('etc/fonts/terminus/terminusttf-4.47.0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face { font-family: commodore; src: url('etc/fonts/petme/PetMe642Y.ttf'); } 
+
+body {
+  background: #333;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  color:whitesmoke;
+  font-family:'terminus';
+  font-size:2.2rem;
+  
+}
+
+.console {
+    /* login window effect */ 
+   position:fixed;
+   left:30px;
+   top:30px;
+} 
+
+p {
+    margin-top:0;
+    margin-bottom:1px;
+    padding:0;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter p {
+    width:content;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  /* margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 0.4s steps(30, end),
+    blink-caret 0.7s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+#skip, #reboot, #videoDemo{
+  top:400px;
+  color:silver;
+  font-size:1.1rem;
+  text-align:left;
+}
+
+.bigBox{
+  display:flex;
+}
+
+#boot{
+  margin-bottom:80px;
+}
+
+#skip.boot, #reboot {
+  position:absolute;
+  top:10%;
+  left:2%;
+  color:dimgray;
+}
+
+#reboot:hover a {
+  color:gainsboro;
+}
+#reboot a{
+  color:inherit;
+  text-decoration:none;
+}
+
+#videoDemo{
+  margin-top:5px;
+}
+
+#skipTitle{
+  margin-bottom:15px;
+  color:silver;
+  font-size:2rem;
+  text-align:left;
+}
+
+
+.coucou p {
+    width:content;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 0.4s steps(30, end),
+      blink-caret 0.6s step-end infinite;
+  }
+
+  #animator {
+      max-width:fit-content;
+  }
+
+  /* Window Management */
+  .demoreel {
+    width:360px;
+    height:256px;
+    position: absolute;
+    z-index: 9;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    text-align: center;
+  }
+  .display {
+    width:352px;
+    height:216px;
+    margin:0 auto;
+    background-color:white;
+    border:0.1px inset darkgray;
+    padding:4px 4px;
+  }
+
+  .wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:15px;
+  }
+  
+  #showreel {
+    z-index:0;
+    width:486px;
+    height:324px;
+  }
+
+  #showreel .display {
+    width:468px;
+    height:262px;
+  }
+
+  #showreel .header{
+    width:480px;
+  }
+
+  #mycat {
+    right:225px;
+    top:35%;
+  }
+
+  #cv {
+    right:200px;
+    top:2%;
+    width:590px;
+    height:702px;
+  }
+
+  #cv .display{
+    width:580px;
+    height:660px;
+  }
+
+  #cv .header {
+    width:584px;
+  }
+
+  #room {
+	width:690px;
+	height:418px;
+  }
+  
+  #room .display{
+	  width:680px;
+	  height:360px;
+  }
+  
+  #room .header {
+  	width:684px;
+  }
+
+  #peep {
+    width:690px;
+    right:532px;
+    top:5%;
+  }
+  #peep .display{
+	  width:680px;
+	  height:535px;
+  }
+  
+  #peep .header {
+  	width:684px;
+  }
+
+  #unity {
+    top:10%;
+    width:1290px;
+    height:765px;
+  }
+  #unity .display{
+    width:1280px;
+    height:722px;
+  }
+  #unity .header {
+    width:1284px;
+  }
+  #video, #videoUnity, #theDemo {
+    top:10%;
+    width:1290px;
+    height:765px;
+  }
+  #video .display, #videoUnity .display, #theDemo .display{
+    width:1280px;
+    height:722px;
+  }
+  #video .header, #videoUnity .header, #theDemo .header{
+    width:1284px;
+  }
+  #videoFlash {
+    top:10%;
+    width:555px;
+    height:587px;
+  }
+  #videoFlash .display{
+    width:545px;
+    height:547px;
+  }
+  #videoFlash .header {
+    width:549px;
+  }
+
+  #programming {
+    right:275px;
+    top:45%;
+  }
+  #concept{
+    right:400px;
+    top:35%;
+  }  
+  #flash{
+    right:450px;
+    top:30%;
+  }  
+  #unityf{
+    right:500px;
+    top:25%;
+  }
+
+  #visualArt {
+    right:150px;
+    top:50%;
+  }
+
+  #web {
+    right:125px;
+    top:55%;
+  }
+
+  #game {
+    right:225px;
+    top:15%;
+  }
+
+ 
+  .cat {
+    width:332px;
+    height:220px;
+  }
+
+  .thumbnail {
+    width:38px;
+    height:38px;
+  }
+
+  .displayTmb {
+    width:fit-content;
+    font-size:1rem;
+    color:black;
+    text-align:center;
+  }
+
+  .selected p{
+    background-color:lightblue;
+  }
+
+  .header {
+    width:356px;
+    height:26px;
+    margin:3px auto;
+    cursor: move;
+    z-index: 10;
+    background-color: darkgray;
+    color: #fff;
+  }
+
+  .header p {
+    font-size:0.9rem;
+    color:white;
+    text-align:left;
+    margin-left:2px;
+    padding-top:5px;
+  }
+
+  .hidden {
+    display:none;
+}
+
+.closeButton {
+  width:25px;
+  height:25px;
+  position:absolute;
+  right:3px;
+  top:4px;
+  font-size:0.9rem;
+  background-color:gray;
+  text-align:center;
+  cursor:default;
+}
+
+.closeButton:hover{
+  background-color:#A0A0A0;
+}
+
+.closeButton:hover p{
+  color:dimgray;
+}
+
+.closeButton p {
+margin-left:0;
+text-align:center;
+}
+.closeButton .png {
+  color:black;
+}
+
+.closeButton:hover .png {
+  color:white;
+}
+
+.png {
+  margin:1px auto;
+}
+
+.art {
+  font-family:'Courier New', Courier, monospace;
+  font-size:1rem;
+  color:lightgreen;
+}
+
+.room {
+	width:680px;
+	height:360px;
+}
+
+.peep {
+  width:680px;
+  height:512px;
+  margin:0;
+}
+
+.descImg {
+  font-size:1rem;
+  color:black;
+  text-align:left;
+  margin-top:0;
+  width:60%;
+}
+
+#name {
+  position:absolute;
+  color:rgba(88, 88, 88, 0.678);
+  top:6%;
+  left:2%;
+}
+
+#bottomLine {
+  position:relative;
+  bottom:5px;
+  display:flex;
+}
+#peepPrev, #peepNext {
+  position:relative;
+  left:31.2%;
+  bottom:50%;
+  margin:auto 4px;
+  cursor: pointer;
+  color: lightgray;
+  background-color:gray;
+  width:22px;
+  height:21px;
+  padding-top:2px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align:center;
+}
+#peepNext:hover, #peepPrev:hover {
+  color:dimgray;
+  background-color:#A0A0A0;
+}#peepNext:active, #peepPrev:active {
+  color:white;
+  background-color:#A0A0A0;
+}
