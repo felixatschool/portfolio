@@ -72,7 +72,9 @@ var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return
 var isIE = /*@cc_on!@*/false || !!document.documentMode;
 var isEdge = !isIE && !!window.StyleMedia;
 if(isFirefox || isSafari || isOpera || isIE || isEdge){
-	alert("Website under-construction \n \nPlease use Google Chrome browser for a better experience.");
+
+	//alert("Website under-construction \n \nPlease consider using a Chromium browser for a better experience.");
+    console.log("Website under-construction. Please consider using a Chromium browser for a better experience.");
 }
 	
     }
