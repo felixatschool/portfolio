@@ -215,16 +215,28 @@ p {
   #unity .header {
     width:1284px;
   }
-  #video, #videoUnity, #theDemo {
+  #video, #theDemo {
+    top:10%;
+    width:1290px;
+    height:765px;
+   }
+  #video .display, #theDemo .display{
+    width:1280px;
+    height:722px;
+  }
+  #video .header, #theDemo .header{
+    width:1284px;
+  }
+  #videoUnity{
     top:11%;
     width:590px;
     height:846px;
   }
-  #video .display, #videoUnity .display, #theDemo .display{
+  #videoUnity .display{
     width:580px;
     height:800px;
   }
-  #video .header, #videoUnity .header, #theDemo .header{
+  #videoUnity .header{
     width:590px;
   }
   #videoFlash {
