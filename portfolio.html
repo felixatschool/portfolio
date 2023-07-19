@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="etc/TemplateData/UnityProgress.js"></script>
+    <script src="etc/Build/UnityLoader.js"></script>
+    <title>PV-318</title>
+</head>
+
+<a target="_blank" href="https://github.com/felixatschool" class="github-corner" aria-label="View source on GitHub" title="View source on GitHub"><svg xmlns="http://www.w3.org/2000/svg" style="fill:#fff; color:#0f3447; position: absolute; top: 0; right: 0" viewBox="0 0 250 250" fill="#151513" height="80" width="80"><path fill="#fff" class="octo-background" d="M 249.57771,250.29409 C 163.6834,162.06673 87.406263,88.122635 -0.4222853,0.29408743 H 249.57771 Z"></path><path fill="currentColor" class="octo-body" d="m 194.57892,71.296301 c -2,-4 -5.00268,-7.999511 -9.00269,-11.999515 -3.99999,-3.999997 -7.9995,-7.002681 -11.9995,-9.002681 -4.00001,-14.000002 -8.99659,-16.998292 -8.99659,-16.998292 -8,3.999999 -11.00464,8.998533 -11.00462,10.998545 -6.00001,0 -10.99732,2.000735 -15.99732,7.000731 -16,16.000004 -10.00195,29.997316 -2.00195,40.997318 -3,0 -6.99854,0.998782 -10.99855,4.998771 L 113.57917,109.2968 c -2,1 -5.99975,-1.00097 -5.99975,-1.00097 l 26.99584,26.99584 c 0,0 -1.99999,-3.99877 0,-4.99877 l 14.00147,-14.00147 c 2.00001,-3 3.00294,-5.9956 3.00293,-7.9956 11,8 23.99732,14.99804 40.99732,-2.00195 5,-5.00001 7.00073,-9.997326 7.00073,-15.997325 -0.90398,-9.744341 -2.80609,-14.23012 -4.99878,-19.000243 z"></path><path fill="currentColor" d="m 121.28633,101.84712 c -14.99999,-9.000009 -8.99999,-19.00001 -8.99999,-19.00001 2.99999,-6.999997 1.99999,-10.999997 1.99999,-10.999997 -1,-7.000002 3,-1.999998 3,-1.999998 4.00001,4.999996 2,11 2,11 -2.99999,9.999998 5.00001,14.999998 9,15.999996" style="transform-origin: 130px 106px;"></path><path fill="currentColor" class="octo-ear" d="m 210.61601,77.354548 c 0,0 -2.99732,-5.000738 -15.99732,-7.000737 -0.0144,-0.02843 0.007,0.01428 0,0 -0.007,-0.01428 -3.99055,0.468874 -3.99055,0.468874 l 5.4469,19.797551 3.57294,-1.284473 c 2.01561,-1.004006 6.98378,-3.016688 10.96801,-11.981199 z" style="transform-origin:180px 90px;"></path></svg><style>.github-corner:hover .octo-ear{animation: octocat-twitch 560ms ease-in-out;}@keyframes octocat-twitch{0%, 100%{transform: rotate(0deg);}25%, 75%{transform: rotate(6deg);}50%{transform: rotate(-4deg) scale(1);}}@media (max-width: 500px){.github-corner:hover .octo-ear{animation: none;}.github-corner .octo-ear{animation: octocat-twitch 560ms ease-in-out;}}</style></a>
+
+<body>
+
+   <div class="BigBox"><p id="boot">The Portfolio Viewer-318<br> <span style='font-size:1.3rem;'>Copyright (C) 1996 to 2021, Félix Lefebvre</span></p>
+    <div class="boxInfo"
+    <p id="skipTitle"><span style='color:palegreen;'>Press the B </span>key to Boot</p>
+    <p id="skip">------------------------------------------<br>press the C key to skip intro</p>
+    <p id="videoDemo">press the D key to watch demo.mp4</p>
+    </div>
+</div>
+    <p id="reboot" class="hidden"><a href="http://felixatschool.github.io">Reboot</a></p>
+    <p id="name" class="hidden">//Félix Lefebvre</p>
+    <div class="console" id="consoleBox">
+        <p id="12"></p>
+        <p id="11"></p>
+        <p id="10"></p>
+        <p id="9"></p>
+        <p id="8"></p>
+        <p id="7"></p>
+        <p id="6"></p>
+        <p id="5"></p>
+        <p id="4"></p>
+        <p id="3"></p>
+        <p id="2"></p>
+        <p id="1"></p>
+        <p id="0"></p>
+        <div id="animator" class="typewriter">
+            <p id="demo"></p>
+        </div>
+    </div>
+
+    <!-- showreel-->
+    <div id="showreel" class="demoreel hidden theDemo">
+        <div id="showreelheader" class="header"> <p class="png">C:\PV-318\file-explorer</p></div>
+        <div id="disp" class="display"> 
+            <div class="wrapper">
+                <div id="catTmb" class="displayTmb">
+                    <img src="etc/img/iconPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>mycat.png</p>
+                </div>
+                 <div id="cvTmb" class="displayTmb">
+                    <img src="etc/img/pdfPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>cv.pdf</p>
+                </div>
+                <div id="progTmb" class="displayTmb">
+                    <img src="etc/img/folderPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>games</p>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div id="visualArtTmb" class="displayTmb">
+                    <img src="etc/img/folderPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>visual-art</p>
+                </div>
+              <div id="webTmb" class="displayTmb">
+                    <img src="etc/img/folderPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>web</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MYCAT-->
+    <div id="mycat" class="demoreel hidden theCat">
+        <div id="mycatheader" class="header"> <p class="png">C:\PV-318\file-explorer\mycat.png</p>
+            <div id="closeButtonMycat" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="dispImg1" class="display"> 
+            <img src="etc/img/myCat.png" class="cat">
+        </div>
+    </div>
+
+   <!-- PROGRAMMING-->
+    <div id="programming" class="demoreel hidden programming">
+        <div id="programmingheader" class="header"> <p class="png">C:\PV-318\file-explorer\games</p>
+            <div id="closeButtonProgramming" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="disp" class="display"> 
+            <div class="wrapper">
+                <div id="unityfTmb" class="displayTmb">
+                    <img src="etc/img/folderPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>unity</p>
+                </div>
+                <div id="flashTmb" class="displayTmb">
+                    <img src="etc/img/folderPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>flash</p>
+                </div>
+                <div id="conceptTmb" class="displayTmb">
+                    <img src="etc/img/folderPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>conception</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VISUALART-->
+    <div id="visualArt" class="demoreel hidden visualArt">
+        <div id="visualArtheader" class="header"> <p class="png">C:\PV-318\file-explorer\visual-art</p>
+            <div id="closeButtonVisualArt" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="dispImg2" class="display"> 
+            <div class="wrapper">
+                <div id="roomTmb" class="displayTmb">
+                    <img src="etc/img/jpgPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>myroom.jpg</p>
+                </div>
+                <div id="peepTmb" class="displayTmb">
+                    <img src="etc/img/iconPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>peep.png</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- WEB-->
+    <div id="web" class="demoreel hidden web">
+        <div id="webheader" class="header"> <p class="png">C:\PV-318\file-explorer\web</p>
+            <div id="closeButtonWeb" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="disp" class="display">
+            <div class="wrapper">
+           <!-- agrotourisme-->
+           <div id="agrotourismeTmb" class="displayTmb">
+                <img src="etc/img/htmlPNG.png" alt="iconPNG" class="thumbnail">
+                <p>maquette.html</p>
+            </div>
+                  <!-- GuideTV-->
+           <div id="guideTmb" class="displayTmb">
+                <img src="etc/img/htmlPNG.png" alt="iconPNG" class="thumbnail">
+                <p>guideTV.html</p>
+            </div>
+
+        </div>
+        </div>
+    </div>
+      <!-- UnityFolder-->
+      <div id="unityf" class="demoreel hidden unityf">
+        <div id="unityfheader" class="header"> <p class="png">C:\PV-318\file-explorer\games\unity</p>
+            <div id="closeButtonUnityf" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="disp" class="display">
+            <div class="wrapper">
+                <div id="unityTmb" class="displayTmb">
+                    <img src="etc/img/playPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>unity.play</p>
+                </div>
+                <div id="videoUnityTmb" class="displayTmb">
+                    <img src="etc/img/mp4PNG.png" alt="iconPNG" class="thumbnail">
+                    <p>demo.mp4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- FlashFolder-->
+      <div id="flash" class="demoreel hidden flash">
+        <div id="flashheader" class="header"> <p class="png">C:\PV-318\file-explorer\games\flash</p>
+            <div id="closeButtonFlash" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="disp" class="display">
+            <div class="wrapper">
+                <div id="gameTmb" class="displayTmb">
+                    <img src="etc/img/flaPNG.png" alt="iconPNG" class="thumbnail">
+                    <p>flash.fla</p>
+                </div>
+                <div id="videoFlashTmb" class="displayTmb">
+                    <img src="etc/img/mp4PNG.png" alt="iconPNG" class="thumbnail">
+                    <p>demo.mp4</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Concept-->
+    <div id="concept" class="demoreel hidden concept">
+        <div id="conceptheader" class="header"> <p class="png">C:\PV-318\file-explorer\games\conception</p>
+            <div id="closeButtonConcept" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="disp" class="display">
+            <div id="videoTmb" class="displayTmb">
+                <img src="etc/img/mp4PNG.png" alt="iconPNG" class="thumbnail">
+                <p>video.mp4</p>
+            </div>
+        </div>
+    </div>
+
+	  <!-- ROOM-->
+	   <div id="room" class="demoreel hidden theRoom">
+        <div id="roomheader" class="header"> <p class="png">C:\PV-318\file-explorer\visual-art\myroom.jpg</p>
+            <div id="closeButtonRoom" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="dispImg1" class="display"> 
+            <img src="etc/img/room.jpg" class="room">
+            <p class="descImg">3DS Max - Modélisation, Texture, Éclairage (2019)</p>
+        </div>
+        </div>
+
+        <!-- PEEP-->
+	   <div id="peep" class="demoreel hidden thePeep">
+        <div id="peepheader" class="header"> <p class="png">C:\PV-318\file-explorer\visual-art\peep.png</p>
+            <div id="closeButtonPeep" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="dispImg1" class="display"> 
+            <img id="imgPeep" src="etc/img/peep1.png" class="peep">
+            <div id="bottomLine">
+                <p class="descImg">Adobe Illustrator, design (2018)</p>
+                <div id="peepPrev">&#10094;</div>
+                <div id="peepNext">&#10095;</div>
+            </div>
+        </div>
+		</div>
+	 <!-- UNITY-->
+     <div id="unity" class="demoreel hidden theUnity">
+        <div id="unityheader" class="header"> <p class="png">C:\PV-318\file-explorer\unity.play</p>
+            <div id="closeButtonUnity" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="disp" class="display"> 
+            <div class="webgl-content">
+                <div id="unityContainer" style="width: 1280px; height: 720px"></div>
+            </div>
+        </div>
+    </div>
+    	 <!-- video-->
+         <div id="video" class="demoreel hidden theVideo">
+            <div id="videoheader" class="header"> <p class="png">C:\PV-318\file-explorer\games\conception\video.mp4</p>
+                <div id="closeButtonVideo" class="closeButton"><p>&#88;</p></div>
+            </div>
+            <div id="disp" class="display"> 
+                <video width="1280" height="720" controls id="hook">
+                    <source src="https://github.com/felixatschool/felixatschool.github.io/blob/main/etc/video/BaitTheHook.mp4?raw=true" type="video/mp4">
+                  </video>
+            </div>
+        </div>
+         <!-- videoUnity-->
+         <div id="videoUnity" class="demoreel hidden theVideoUnity">
+            <div id="videoUnityheader" class="header"> <p class="png">C:\PV-318\file-explorer\games\unity\demo.mp4</p>
+                <div id="closeButtonVideoUnity" class="closeButton"><p>&#88;</p></div>
+            </div>
+            <div id="disp" class="display"> 
+                <video width="580" height="800" controls id="unityPlayer">
+                    <source src="https://github.com/felixatschool/felixatschool.github.io/blob/main/etc/video/biggerthanlife.mp4?raw=true" type="video/mp4">
+                  </video>
+            </div>
+        </div>
+         <!-- videoFlash-->
+         <div id="videoFlash" class="demoreel hidden theVideoFlash">
+            <div id="videoFlashheader" class="header"> <p class="png">C:\PV-318\file-explorer\games\flash\demo.mp4</p>
+                <div id="closeButtonVideoFlash" class="closeButton"><p>&#88;</p></div>
+            </div>
+            <div id="disp" class="display"> 
+                <video width="545" height="545" controls id="flashPlayer">
+                    <source src="etc/video/flashVideo.mkv" type="video/mp4">
+                  </video>
+            </div>
+        </div>
+         <!-- videoDemo-->
+         <div id="theDemo" class="demoreel hidden theVideoDemo">
+            <div id="videoDemoheader" class="header"> <p class="png">C:\PV-318\file-explorer\demo.mp4</p>
+                <div id="closeButtonVideoDemo" class="closeButton"><p>&#88;</p></div>
+            </div>
+            <div id="disp" class="display"> 
+                <video width="1280" height="720" controls id="demoPlayer">
+                    <source src="https://github.com/felixatschool/felixatschool.github.io/blob/main/etc/video/demoreel.mp4?raw=true" type="video/mp4">
+                  </video>
+            </div>
+        </div>
+    <!-- CV-->
+    <div id="cv" class="demoreel hidden theCV">
+        <div id="cvheader" class="header"> <p class="png">C:\PV-318\file-explorer\cv.pdf</p>
+            <div id="closeButtonCV" class="closeButton"><p>&#88;</p></div>
+        </div>
+        <div id="disp" class="display"> 
+            <object width="580" height="660" type="application/pdf" data="etc/img/LefebvreFelixCV.pdf?#zoom=100&scrollbar=0&toolbar=0&navpanes=0">
+        </div>
+    </div>
+
+    <!-- game-->
+    <div id="game" class="demoreel hidden theGame">
+      <div id="disp" class="display">
+		</div>
+    </div>       <div id="gameheader" class="header"> <p class="png">C:\PV-318\file-explorer\game.play</p>
+            <div id="closeButtonGame" class="closeButton"><p>&#88;</p></div>
+        </div>
+
+    <script type="text/javascript" src="js/window.js"></script>
+    <script type="text/javascript" src="js/bash.js"></script>
+
+</body>
+</html>
